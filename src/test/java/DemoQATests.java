@@ -11,7 +11,6 @@ public class DemoQATests {
         $$(".card").findBy(text("Elements")).click();
         $(".element-group").$$("li").findBy(text("Text Box")).click();
 
-
         $("#userName").setValue("John Doe");
         $("#userEmail").setValue("john.doe@example.com");
         $("#currentAddress").setValue("123 Main Street");
